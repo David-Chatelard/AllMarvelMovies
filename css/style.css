@@ -1,0 +1,21 @@
+@font-face {
+    font-family: MarvelFont;
+    src: url(../assets/fonts/MarvelRegular-Dj83.ttf);
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: "MarvelFont", "Arial";
+    margin: 0;
+    font-size: 1.5em;
+}
+header{
+    background-color: #e23636;
+    height: 100px;
+    font-size: 1.5em;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
