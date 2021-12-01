@@ -2,6 +2,10 @@
     font-family: MarvelFont;
     src: url(../assets/fonts/MarvelRegular-Dj83.ttf);
 }
+@font-face {
+    font-family: Eternals;
+    src: url(../assets/fonts/eternals.ttf);
+}
 
 body{
     background-color: black;
@@ -40,11 +44,17 @@ a{
     background-color: #dd5656;
     color: black;
 }
+h2{
+    text-align: center;
+}
+#eternals{
+    font-family: "Eternals", "Arial";
+}
 footer{
     height: 60px;
     text-align: center;
     position: relative;
-    top: 500px; /*Mudar no final para o valor que deixe no fim da página*/
+    top: 300px; /*Mudar no final para o valor que deixe no fim da página, acho que com 100% já fica la no final*/
     font-size: 1em;
     padding-top: 10px;
 }
