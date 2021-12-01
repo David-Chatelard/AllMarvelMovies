@@ -1,0 +1,2 @@
+fonts: https://www.fontspace.com/category/marvel
+color palletes: https://www.schemecolor.com/tag/marvel

@@ -6,6 +6,22 @@
     font-family: Eternals;
     src: url(../assets/fonts/eternals.ttf);
 }
+@font-face {
+    font-family: Venom2;
+    src: url(../assets/fonts/venom2.ttf);
+}
+@font-face {
+    font-family: Shang-Chi;
+    src: url(../assets/fonts/shang-chi.otf);
+}
+@font-face {
+    font-family: Black-Widow;
+    src: url(../assets/fonts/black-widow.ttf);
+}
+@font-face {
+    font-family: Font;
+    src: url(../assets/fonts/font);
+}
 
 body{
     background-color: black;
@@ -28,33 +44,92 @@ a{
     color: white;
     text-decoration: none;
 }
+a:hover{
+    background-color: #e23636;
+    color: black;
+}
 #top_menu{
     position: relative;
     float: right;
     font-size: 0.7em;
     list-style-type: none;
     bottom: 80%;
+    margin-bottom: 0;
 }
 .top_menu_li{
     float: left;
     padding: 10px;
     margin-left: 30px;
 }
-.top_menu_li:hover{
-    background-color: #dd5656;
-    color: black;
+h1{
+    font-size: 2em;
 }
-h2{
+h1, h2{
     text-align: center;
+    font-weight: normal;
+}
+.images{
+    height: 250px;
+}
+.text{
+    position: relative;
+    bottom: 280px;
+    left: 460px;
+    max-width: 1300px;
+}
+.number_black_widow{
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: bold;
 }
 #eternals{
-    font-family: "Eternals", "Arial";
+    font-family: "Eternals", "MarvelFont", "Arial";
+    color: #EFCB87;
+    /* background-color: #122759; */
+    background-image: url(../assets/images/eternals_background3.jpeg);
+    background-attachment: fixed;
 }
+#venom2{
+    font-family: "Venom2", "MarvelFont", "Arial";
+    color: #E6E7E9;
+    background-image: url(../assets/images/venom2_background2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+#shang-chi{
+    font-family: "Shang-Chi", "MarvelFont", "Arial";
+    color: #A0020A;
+    background-image: url(../assets/images/shang-chi_background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+#black_widow{
+    font-family: "Black-Widow", "MarvelFont", "Arial";
+    color: #F7EBED;
+    background-image: url(../assets/images/black-widow_background2.jpg);
+    background-attachment: fixed;
+    /* background-size: cover; */
+}
+#name{
+    font-family: "font", "MarvelFont", "Arial";
+    color: #F7EBED;
+    background-image: url(../assets/images/background);
+    background-attachment: fixed;
+    background-size: cover;
+}
+#name{
+    font-family: "font", "MarvelFont", "Arial";
+    color: #F7EBED;
+    background-image: url(../assets/images/background);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 footer{
     height: 60px;
     text-align: center;
     position: relative;
-    top: 300px; /*Mudar no final para o valor que deixe no fim da página, acho que com 100% já fica la no final*/
+    top: 100%; /*Mudar no final para o valor que deixe no fim da página, acho que com 100% já fica la no final*/
     font-size: 1em;
     padding-top: 10px;
 }
