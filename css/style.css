@@ -40,6 +40,14 @@ header{
     position: sticky;
     top: 0px;
 }
+footer{
+    height: 60px;
+    text-align: center;
+    position: relative;
+    top: 100%; /*Mudar no final para o valor que deixe no fim da página, acho que com 100% já fica la no final*/
+    font-size: 1em;
+    padding-top: 10px;
+}
 a{
     color: white;
     text-decoration: none;
@@ -71,21 +79,32 @@ h1, h2{
 .images{
     height: 250px;
 }
+.images_order{
+    height: 150px;
+}
 .text{
     position: relative;
     bottom: 280px;
     left: 460px;
     max-width: 1300px;
 }
+.text_order{
+    position: relative;
+    bottom: 150px;
+    left: 280px;
+    max-width: 800px;
+}
 .number_black_widow{
     font-family: Roboto;
     font-style: italic;
     font-weight: bold;
 }
+
+/* CSS for index.html and desciptions.html */
+
 #eternals{
     font-family: "Eternals", "MarvelFont", "Arial";
     color: #EFCB87;
-    /* background-color: #122759; */
     background-image: url(../assets/images/eternals_background3.jpeg);
     background-attachment: fixed;
 }
@@ -108,7 +127,6 @@ h1, h2{
     color: #F7EBED;
     background-image: url(../assets/images/black-widow_background2.jpg);
     background-attachment: fixed;
-    /* background-size: cover; */
 }
 #name{
     font-family: "font", "MarvelFont", "Arial";
@@ -125,11 +143,45 @@ h1, h2{
     background-size: cover;
 }
 
-footer{
-    height: 60px;
-    text-align: center;
-    position: relative;
-    top: 100%; /*Mudar no final para o valor que deixe no fim da página, acho que com 100% já fica la no final*/
-    font-size: 1em;
-    padding-top: 10px;
+/* CSS for chronological.html */
+
+.order1{
+    width: 635px;
+    height: 385.75px;
+    float: left;
+}
+.order2{
+    width: 634px;
+    height: 385.75px;
+    float: left;
+}
+
+.black_widow_order{
+    font-family: "Black-Widow", "MarvelFont", "Arial";
+    color: #F7EBED;
+    background-image: url(../assets/images/black-widow_background2.jpg);
+    background-attachment: local;
+    background-size: cover;
+}
+.shang-chi_order{
+    font-family: "Shang-Chi", "MarvelFont", "Arial";
+    color: #A0020A;
+    background-image: url(../assets/images/shang-chi_background.jpg);
+    background-size: cover;
+}
+.venom2_order{
+    font-family: "Venom2", "MarvelFont", "Arial";
+    color: #E6E7E9;
+    background-image: url(../assets/images/venom2_background2.jpg);
+    background-size: cover;
+}
+.eternals_order{
+    font-family: "Eternals", "MarvelFont", "Arial";
+    color: #EFCB87;
+    background-image: url(../assets/images/eternals_background3.jpeg);
+    /* width: 634px;
+    height: 385.75px;
+    display: inline-block; */
+    /* float: left; */
+    /* Se usar o float: left, o footer fica bugado na página */
 }
