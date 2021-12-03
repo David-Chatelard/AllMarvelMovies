@@ -19,6 +19,38 @@
     src: url(../assets/fonts/black-widow.ttf);
 }
 @font-face {
+    font-family: Spiderman-Far1;
+    src: url(../assets/fonts/spiderman-far1.ttf);
+}
+@font-face {
+    font-family: Spiderman-Far2;
+    src: url(../assets/fonts/spiderman-far2.otf);
+}
+@font-face {
+    font-family: Avengers-Endgame;
+    src: url(../assets/fonts/avengers-endgame2.ttf);
+}
+@font-face {
+    font-family: Captain-Marvel;
+    src: url(../assets/fonts/captain-marvel.ttf);
+}
+@font-face {
+    font-family: Antman2;
+    src: url(../assets/fonts/antman2.otf);
+}
+@font-face {
+    font-family: Avengers;
+    src: url(../assets/fonts/avengers.ttf);
+}
+@font-face {
+    font-family: Black-Panther;
+    src: url(../assets/fonts/black-panther.ttf);
+}
+@font-face {
+    font-family: Black-Panther-numbers;
+    src: url(../assets/fonts/black-panther-numbers.ttf);
+}
+@font-face {
     font-family: Font;
     src: url(../assets/fonts/font);
 }
@@ -72,9 +104,15 @@ a:hover{
 h1{
     font-size: 2em;
 }
+h2{
+    height: 50px;
+}
 h1, h2{
     text-align: center;
     font-weight: normal;
+}
+.big_title{
+    font-size: 1.2em;
 }
 .images{
     height: 250px;
@@ -94,6 +132,12 @@ h1, h2{
     left: 280px;
     max-width: 800px;
 }
+.big_text{
+    font-size: 0.83em;
+}
+.bigger_text{
+    font-size: 0.73em;
+}
 .number_black_widow{
     font-family: Roboto;
     font-style: italic;
@@ -111,7 +155,7 @@ h1, h2{
 #venom2{
     font-family: "Venom2", "MarvelFont", "Arial";
     color: #E6E7E9;
-    background-image: url(../assets/images/venom2_background2.jpg);
+    background-image: url(../assets/images/venom2_background.jpg);
     background-attachment: fixed;
     background-size: cover;
 }
@@ -128,12 +172,67 @@ h1, h2{
     background-image: url(../assets/images/black-widow_background2.jpg);
     background-attachment: fixed;
 }
-#name{
-    font-family: "font", "MarvelFont", "Arial";
-    color: #F7EBED;
-    background-image: url(../assets/images/background);
+#spiderman_far{
+    font-family: "Spiderman-Far1", "MarvelFont", "Arial";
+    color: #D20014;
+    background-image: url(../assets/images/spiderman-far_background.jpg);
     background-attachment: fixed;
     background-size: cover;
+}
+.spiderman_far_title{
+    font-family: "Spiderman-Far2", "MarvelFont", "Arial";
+}
+#avengers_endgame{
+    font-family: "Avengers-Endgame", "MarvelFont", "Arial";
+    color: #261764;
+    padding-top: 1px;
+    background-image: url(../assets/images/avengers-endgame_background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.title_avengers{
+    font-family: "Avengers", "MarvelFont", "Arial";
+}
+#captain_marvel{
+    font-family: "Captain-Marvel", "MarvelFont", "Arial";
+    color: #D40614;
+    background-image: url(../assets/images/captain-marvel_background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+#venom1{
+    font-family: "Venom2", "MarvelFont", "Arial";
+    color: #F7EBED;
+    background-image: url(../assets/images/venom1_background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+#ant_man2{
+    font-family: "Antman2", "MarvelFont", "Arial";
+    color: #AF7214;
+    background-image: url(../assets/images/antman2_background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+#avengers_infinity{
+    font-family: "Avengers-Endgame", "MarvelFont", "Arial";
+    color: #E39729;
+    padding-top: 1px;
+    background-image: url(../assets/images/avengers-infinity_background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+#black_panther{
+    font-family: "Black-Panther", "MarvelFont", "Arial";
+    color: #5EA4D3;
+    padding-top: 1px;
+    background-image: url(../assets/images/black-panther_background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.black-panther-numbers{
+    font-family: "Black-Panther-numbers", "MarvelFont", "Arial";
+    font-size: 1.5em;
 }
 #name{
     font-family: "font", "MarvelFont", "Arial";
@@ -156,6 +255,55 @@ h1, h2{
     float: left;
 }
 
+
+.black_panther_order{
+    font-family: "Black-Panther", "MarvelFont", "Arial";
+    color: #5EA4D3;
+    padding-top: 1px;
+    background-image: url(../assets/images/black-panther_background.jpg);
+    background-size: cover;
+}
+.avengers_infinity_order{
+    font-family: "Avengers-Endgame", "MarvelFont", "Arial";
+    color: #E39729;
+    padding-top: 1px;
+    background-image: url(../assets/images/avengers-infinity_background.jpg);
+    background-size: cover;
+}
+.ant_man2_order{
+    font-family: "Antman2", "MarvelFont", "Arial";
+    color: #AF7214;
+    background-image: url(../assets/images/antman2_background.jpg);
+    background-size: cover;
+}
+.venom1_order{
+    font-family: "Venom2", "MarvelFont", "Arial";
+    color: #F7EBED;
+    background-image: url(../assets/images/venom1_background.jpg);
+    background-size: cover;
+}
+.venom_text_order{
+    bottom: 190px;
+}
+.captain_marvel_order{
+    font-family: "Captain-Marvel", "MarvelFont", "Arial";
+    color: #D40614;
+    background-image: url(../assets/images/captain-marvel_background.jpg);
+    background-size: cover;
+}
+.avengers_endgame_order{
+    font-family: "Avengers-Endgame", "MarvelFont", "Arial";
+    color: #543FC0;
+    /* 261764 */
+    background-image: url(../assets/images/avengers-endgame_background3.jpg);
+    background-size: cover;
+}
+.spiderman_far_order{
+    font-family: "Spiderman-Far1", "MarvelFont", "Arial";
+    color: #D20014;
+    background-image: url(../assets/images/spiderman-far_background2.jpg);
+    background-size: cover;
+}
 .black_widow_order{
     font-family: "Black-Widow", "MarvelFont", "Arial";
     color: #F7EBED;
@@ -172,16 +320,16 @@ h1, h2{
 .venom2_order{
     font-family: "Venom2", "MarvelFont", "Arial";
     color: #E6E7E9;
-    background-image: url(../assets/images/venom2_background2.jpg);
+    background-image: url(../assets/images/venom2_background.jpg);
     background-size: cover;
 }
 .eternals_order{
     font-family: "Eternals", "MarvelFont", "Arial";
     color: #EFCB87;
     background-image: url(../assets/images/eternals_background3.jpeg);
-    /* width: 634px;
+    width: 1268px;
     height: 385.75px;
-    display: inline-block; */
+    display: inline-block;
     /* float: left; */
     /* Se usar o float: left, o footer fica bugado na página */
 }

@@ -1,2 +1,4 @@
 fonts: https://www.fontspace.com/category/marvel
 color palletes: https://www.schemecolor.com/tag/marvel
+movie order: https://www.gamesradar.com/how-to-watch-marvel-movies-in-order-mcu/
+movie order 2: https://www.techradar.com/how-to/how-to-watch-the-marvel-movies-in-order
