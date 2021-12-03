@@ -323,6 +323,17 @@ h1, h2{
     background-image: url(../assets/images/venom2_background.jpg);
     background-size: cover;
 }
+.venom2_order_rating{
+    font-family: "Venom2", "MarvelFont", "Arial";
+    color: #E6E7E9;
+    background-image: url(../assets/images/venom2_background.jpg);
+    background-size: cover;
+    width: 1268px;
+    height: 385.75px;
+    display: inline-block;
+    /* float: left; */
+    /* Se usar o float: left, o footer fica bugado na página */
+}
 .eternals_order{
     font-family: "Eternals", "MarvelFont", "Arial";
     color: #EFCB87;
@@ -332,4 +343,9 @@ h1, h2{
     display: inline-block;
     /* float: left; */
     /* Se usar o float: left, o footer fica bugado na página */
+}
+.eternals_order_rating{
+    font-family: "Eternals", "MarvelFont", "Arial";
+    color: #EFCB87;
+    background-image: url(../assets/images/eternals_background3.jpeg);
 }
