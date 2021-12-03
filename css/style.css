@@ -250,13 +250,11 @@ h1, h2{
 .order1{
     width: 635px;
     height: 385.75px;
-    max-height: 385.75px;
     float: left;
 }
 .order2{
     width: 634px;
     height: 385.75px;
-    max-height: 385.75px;
     float: left;
 }
 
