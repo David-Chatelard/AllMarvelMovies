@@ -186,6 +186,7 @@ h1, h2{
     font-family: "Avengers-Endgame", "MarvelFont", "Arial";
     color: #261764;
     padding-top: 1px;
+    box-sizing: border-box;
     background-image: url(../assets/images/avengers-endgame_background.jpg);
     background-attachment: fixed;
     background-size: cover;
@@ -218,6 +219,7 @@ h1, h2{
     font-family: "Avengers-Endgame", "MarvelFont", "Arial";
     color: #E39729;
     padding-top: 1px;
+    box-sizing: border-box;
     background-image: url(../assets/images/avengers-infinity_background.jpg);
     background-attachment: fixed;
     background-size: cover;
@@ -226,6 +228,7 @@ h1, h2{
     font-family: "Black-Panther", "MarvelFont", "Arial";
     color: #5EA4D3;
     padding-top: 1px;
+    box-sizing: border-box;
     background-image: url(../assets/images/black-panther_background.jpg);
     background-attachment: fixed;
     background-size: cover;
@@ -247,11 +250,13 @@ h1, h2{
 .order1{
     width: 635px;
     height: 385.75px;
+    max-height: 385.75px;
     float: left;
 }
 .order2{
     width: 634px;
     height: 385.75px;
+    max-height: 385.75px;
     float: left;
 }
 
@@ -260,6 +265,7 @@ h1, h2{
     font-family: "Black-Panther", "MarvelFont", "Arial";
     color: #5EA4D3;
     padding-top: 1px;
+    box-sizing: border-box;
     background-image: url(../assets/images/black-panther_background.jpg);
     background-size: cover;
 }
@@ -267,6 +273,7 @@ h1, h2{
     font-family: "Avengers-Endgame", "MarvelFont", "Arial";
     color: #E39729;
     padding-top: 1px;
+    box-sizing: border-box;
     background-image: url(../assets/images/avengers-infinity_background.jpg);
     background-size: cover;
 }
