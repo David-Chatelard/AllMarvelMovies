@@ -1,7 +1,7 @@
 # AllMarvelMovies
-Projeto de um site com detalhes sobre alguns filmes da Marvel. O objetivo do projeto é aprimorar os meus conhecimentos em HTML e CSS.
+Project of a site with details of some Marvel movies. The goal of this project is to improve my knowledge in HTML and CSS.
 
-Você pode accesar o site a partir deste [link](https://david-chatelard.github.io/AllMarvelMovies/).
+You can access the site through this [link](https://david-chatelard.github.io/AllMarvelMovies/).
 
 ![image](https://user-images.githubusercontent.com/42392257/145288549-8a837701-287f-4314-acae-05e933003d2c.png)
 ![image](https://user-images.githubusercontent.com/42392257/145288627-8d5484d5-2e11-401f-bd3e-664ef95afc90.png)
